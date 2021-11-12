@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    font-size: 20px;
+    background-color: #ffffff;
+}
+.document{
+    max-width: 960px;
+    margin: auto;
+}
+
+.header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .info {
+    margin-top: 150px;
+}
+
+ h2{
+    display: inline-block;
+    padding: 0px 5px;
+    background-color: rgba(171, 224, 71, 0.658);
+}
+.header .profile_pic img{
+    width: 300px;
+    height: 300px;
+}
+
+.career_objective p{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.academic h2{
+    margin-bottom: 10px;
+}
+
+.academic .ssc , .diploma{
+    margin-left: 30px;
+    
+}
+.academic .ssc h3, .diploma h3{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.academic .diploma {
+    margin-top: 20px;
+}
+
+.computer_lite{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.computer_lite ol{
+    margin-left: 70px;
+    display: block;
+}
+
+.language_k{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.language_k p{
+    margin-left: 50px;
+}
+
+.interest {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.interest p{
+    margin-left: 50px;
+}
+
+.mytraits{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.mytraits ul{
+    margin-left: 70px;
+}
+
+.personal_details, .declaration{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.personal_details p, .declaration p, .reference p{
+    margin-left: 50px;
+}
+
+
+.signature h3{
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.signature img {
+    height: 80px;
+    width: auto;
+}
+
+
+.footer {
+    background-color: rgb(34, 32, 32);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+}
